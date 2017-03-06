@@ -1,0 +1,526 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5834A63D1E6E297E0012DB8C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5834A63C1E6E297E0012DB8C /* AppDelegate.swift */; };
+		5834A63F1E6E297E0012DB8C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5834A63E1E6E297E0012DB8C /* ViewController.swift */; };
+		5834A6421E6E297E0012DB8C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5834A6401E6E297E0012DB8C /* Main.storyboard */; };
+		5834A6441E6E297E0012DB8C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5834A6431E6E297E0012DB8C /* Assets.xcassets */; };
+		5834A6471E6E297E0012DB8C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5834A6451E6E297E0012DB8C /* LaunchScreen.storyboard */; };
+		5834A6521E6E297E0012DB8C /* GerdEval1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5834A6511E6E297E0012DB8C /* GerdEval1Tests.swift */; };
+		5834A65D1E6E297E0012DB8C /* GerdEval1UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5834A65C1E6E297E0012DB8C /* GerdEval1UITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5834A64E1E6E297E0012DB8C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5834A6311E6E297E0012DB8C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5834A6381E6E297E0012DB8C;
+			remoteInfo = GerdEval1;
+		};
+		5834A6591E6E297E0012DB8C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5834A6311E6E297E0012DB8C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5834A6381E6E297E0012DB8C;
+			remoteInfo = GerdEval1;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5834A6391E6E297E0012DB8C /* GerdEval1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GerdEval1.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5834A63C1E6E297E0012DB8C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5834A63E1E6E297E0012DB8C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5834A6411E6E297E0012DB8C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5834A6431E6E297E0012DB8C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5834A6461E6E297E0012DB8C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5834A6481E6E297E0012DB8C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5834A64D1E6E297E0012DB8C /* GerdEval1Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GerdEval1Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5834A6511E6E297E0012DB8C /* GerdEval1Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GerdEval1Tests.swift; sourceTree = "<group>"; };
+		5834A6531E6E297E0012DB8C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5834A6581E6E297E0012DB8C /* GerdEval1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GerdEval1UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5834A65C1E6E297E0012DB8C /* GerdEval1UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GerdEval1UITests.swift; sourceTree = "<group>"; };
+		5834A65E1E6E297E0012DB8C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5834A6361E6E297E0012DB8C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5834A64A1E6E297E0012DB8C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5834A6551E6E297E0012DB8C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5834A6301E6E297E0012DB8C = {
+			isa = PBXGroup;
+			children = (
+				5834A63B1E6E297E0012DB8C /* GerdEval1 */,
+				5834A6501E6E297E0012DB8C /* GerdEval1Tests */,
+				5834A65B1E6E297E0012DB8C /* GerdEval1UITests */,
+				5834A63A1E6E297E0012DB8C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5834A63A1E6E297E0012DB8C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5834A6391E6E297E0012DB8C /* GerdEval1.app */,
+				5834A64D1E6E297E0012DB8C /* GerdEval1Tests.xctest */,
+				5834A6581E6E297E0012DB8C /* GerdEval1UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5834A63B1E6E297E0012DB8C /* GerdEval1 */ = {
+			isa = PBXGroup;
+			children = (
+				5834A63C1E6E297E0012DB8C /* AppDelegate.swift */,
+				5834A63E1E6E297E0012DB8C /* ViewController.swift */,
+				5834A6401E6E297E0012DB8C /* Main.storyboard */,
+				5834A6431E6E297E0012DB8C /* Assets.xcassets */,
+				5834A6451E6E297E0012DB8C /* LaunchScreen.storyboard */,
+				5834A6481E6E297E0012DB8C /* Info.plist */,
+			);
+			path = GerdEval1;
+			sourceTree = "<group>";
+		};
+		5834A6501E6E297E0012DB8C /* GerdEval1Tests */ = {
+			isa = PBXGroup;
+			children = (
+				5834A6511E6E297E0012DB8C /* GerdEval1Tests.swift */,
+				5834A6531E6E297E0012DB8C /* Info.plist */,
+			);
+			path = GerdEval1Tests;
+			sourceTree = "<group>";
+		};
+		5834A65B1E6E297E0012DB8C /* GerdEval1UITests */ = {
+			isa = PBXGroup;
+			children = (
+				5834A65C1E6E297E0012DB8C /* GerdEval1UITests.swift */,
+				5834A65E1E6E297E0012DB8C /* Info.plist */,
+			);
+			path = GerdEval1UITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5834A6381E6E297E0012DB8C /* GerdEval1 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5834A6611E6E297E0012DB8C /* Build configuration list for PBXNativeTarget "GerdEval1" */;
+			buildPhases = (
+				5834A6351E6E297E0012DB8C /* Sources */,
+				5834A6361E6E297E0012DB8C /* Frameworks */,
+				5834A6371E6E297E0012DB8C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GerdEval1;
+			productName = GerdEval1;
+			productReference = 5834A6391E6E297E0012DB8C /* GerdEval1.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5834A64C1E6E297E0012DB8C /* GerdEval1Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5834A6641E6E297E0012DB8C /* Build configuration list for PBXNativeTarget "GerdEval1Tests" */;
+			buildPhases = (
+				5834A6491E6E297E0012DB8C /* Sources */,
+				5834A64A1E6E297E0012DB8C /* Frameworks */,
+				5834A64B1E6E297E0012DB8C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5834A64F1E6E297E0012DB8C /* PBXTargetDependency */,
+			);
+			name = GerdEval1Tests;
+			productName = GerdEval1Tests;
+			productReference = 5834A64D1E6E297E0012DB8C /* GerdEval1Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5834A6571E6E297E0012DB8C /* GerdEval1UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5834A6671E6E297E0012DB8C /* Build configuration list for PBXNativeTarget "GerdEval1UITests" */;
+			buildPhases = (
+				5834A6541E6E297E0012DB8C /* Sources */,
+				5834A6551E6E297E0012DB8C /* Frameworks */,
+				5834A6561E6E297E0012DB8C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5834A65A1E6E297E0012DB8C /* PBXTargetDependency */,
+			);
+			name = GerdEval1UITests;
+			productName = GerdEval1UITests;
+			productReference = 5834A6581E6E297E0012DB8C /* GerdEval1UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5834A6311E6E297E0012DB8C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = Producer;
+				TargetAttributes = {
+					5834A6381E6E297E0012DB8C = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					5834A64C1E6E297E0012DB8C = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 5834A6381E6E297E0012DB8C;
+					};
+					5834A6571E6E297E0012DB8C = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 5834A6381E6E297E0012DB8C;
+					};
+				};
+			};
+			buildConfigurationList = 5834A6341E6E297E0012DB8C /* Build configuration list for PBXProject "GerdEval1" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5834A6301E6E297E0012DB8C;
+			productRefGroup = 5834A63A1E6E297E0012DB8C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5834A6381E6E297E0012DB8C /* GerdEval1 */,
+				5834A64C1E6E297E0012DB8C /* GerdEval1Tests */,
+				5834A6571E6E297E0012DB8C /* GerdEval1UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5834A6371E6E297E0012DB8C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5834A6471E6E297E0012DB8C /* LaunchScreen.storyboard in Resources */,
+				5834A6441E6E297E0012DB8C /* Assets.xcassets in Resources */,
+				5834A6421E6E297E0012DB8C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5834A64B1E6E297E0012DB8C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5834A6561E6E297E0012DB8C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5834A6351E6E297E0012DB8C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5834A63F1E6E297E0012DB8C /* ViewController.swift in Sources */,
+				5834A63D1E6E297E0012DB8C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5834A6491E6E297E0012DB8C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5834A6521E6E297E0012DB8C /* GerdEval1Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5834A6541E6E297E0012DB8C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5834A65D1E6E297E0012DB8C /* GerdEval1UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5834A64F1E6E297E0012DB8C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5834A6381E6E297E0012DB8C /* GerdEval1 */;
+			targetProxy = 5834A64E1E6E297E0012DB8C /* PBXContainerItemProxy */;
+		};
+		5834A65A1E6E297E0012DB8C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5834A6381E6E297E0012DB8C /* GerdEval1 */;
+			targetProxy = 5834A6591E6E297E0012DB8C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5834A6401E6E297E0012DB8C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5834A6411E6E297E0012DB8C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5834A6451E6E297E0012DB8C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5834A6461E6E297E0012DB8C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5834A65F1E6E297E0012DB8C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5834A6601E6E297E0012DB8C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5834A6621E6E297E0012DB8C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GerdEval1/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = SleepEval.GerdEval1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		5834A6631E6E297E0012DB8C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GerdEval1/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = SleepEval.GerdEval1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		5834A6651E6E297E0012DB8C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = GerdEval1Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = SleepEval.GerdEval1Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GerdEval1.app/GerdEval1";
+			};
+			name = Debug;
+		};
+		5834A6661E6E297E0012DB8C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = GerdEval1Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = SleepEval.GerdEval1Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GerdEval1.app/GerdEval1";
+			};
+			name = Release;
+		};
+		5834A6681E6E297E0012DB8C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = GerdEval1UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = SleepEval.GerdEval1UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = GerdEval1;
+			};
+			name = Debug;
+		};
+		5834A6691E6E297E0012DB8C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = GerdEval1UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = SleepEval.GerdEval1UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = GerdEval1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5834A6341E6E297E0012DB8C /* Build configuration list for PBXProject "GerdEval1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5834A65F1E6E297E0012DB8C /* Debug */,
+				5834A6601E6E297E0012DB8C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5834A6611E6E297E0012DB8C /* Build configuration list for PBXNativeTarget "GerdEval1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5834A6621E6E297E0012DB8C /* Debug */,
+				5834A6631E6E297E0012DB8C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5834A6641E6E297E0012DB8C /* Build configuration list for PBXNativeTarget "GerdEval1Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5834A6651E6E297E0012DB8C /* Debug */,
+				5834A6661E6E297E0012DB8C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5834A6671E6E297E0012DB8C /* Build configuration list for PBXNativeTarget "GerdEval1UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5834A6681E6E297E0012DB8C /* Debug */,
+				5834A6691E6E297E0012DB8C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5834A6311E6E297E0012DB8C /* Project object */;
+}
