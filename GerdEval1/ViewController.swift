@@ -10,6 +10,17 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var txtUserName: UITextField!
+    @IBOutlet weak var txtUserEmail: UITextField!
+    @IBOutlet weak var txtCellphoneNo: UITextField!
+   
+    @IBAction func goToSecondVC(_ sender: Any) {
+        
+        let UserEmail = txtUserEmail.text
+        performSegue(withIdentifier: "goToSecondVC", sender: UserEmail)
+    
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.

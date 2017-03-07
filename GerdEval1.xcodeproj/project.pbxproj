@@ -14,6 +14,8 @@
 		5834A6471E6E297E0012DB8C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5834A6451E6E297E0012DB8C /* LaunchScreen.storyboard */; };
 		5834A6521E6E297E0012DB8C /* GerdEval1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5834A6511E6E297E0012DB8C /* GerdEval1Tests.swift */; };
 		5834A65D1E6E297E0012DB8C /* GerdEval1UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5834A65C1E6E297E0012DB8C /* GerdEval1UITests.swift */; };
+		5834A66B1E6E2D710012DB8C /* SecondVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5834A66A1E6E2D710012DB8C /* SecondVC.swift */; };
+		587E97A21E6F550200C98B03 /* KeychainWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 587E97A11E6F550200C98B03 /* KeychainWrapper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		5834A6581E6E297E0012DB8C /* GerdEval1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GerdEval1UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5834A65C1E6E297E0012DB8C /* GerdEval1UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GerdEval1UITests.swift; sourceTree = "<group>"; };
 		5834A65E1E6E297E0012DB8C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5834A66A1E6E2D710012DB8C /* SecondVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondVC.swift; sourceTree = "<group>"; };
+		587E97A11E6F550200C98B03 /* KeychainWrapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeychainWrapper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,11 +102,13 @@
 			isa = PBXGroup;
 			children = (
 				5834A63C1E6E297E0012DB8C /* AppDelegate.swift */,
+				587E97A11E6F550200C98B03 /* KeychainWrapper.swift */,
 				5834A63E1E6E297E0012DB8C /* ViewController.swift */,
 				5834A6401E6E297E0012DB8C /* Main.storyboard */,
 				5834A6431E6E297E0012DB8C /* Assets.xcassets */,
 				5834A6451E6E297E0012DB8C /* LaunchScreen.storyboard */,
 				5834A6481E6E297E0012DB8C /* Info.plist */,
+				5834A66A1E6E2D710012DB8C /* SecondVC.swift */,
 			);
 			path = GerdEval1;
 			sourceTree = "<group>";
@@ -260,6 +266,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				5834A63F1E6E297E0012DB8C /* ViewController.swift in Sources */,
+				587E97A21E6F550200C98B03 /* KeychainWrapper.swift in Sources */,
+				5834A66B1E6E2D710012DB8C /* SecondVC.swift in Sources */,
 				5834A63D1E6E297E0012DB8C /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -503,6 +511,7 @@
 				5834A6631E6E297E0012DB8C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5834A6641E6E297E0012DB8C /* Build configuration list for PBXNativeTarget "GerdEval1Tests" */ = {
 			isa = XCConfigurationList;
@@ -511,6 +520,7 @@
 				5834A6661E6E297E0012DB8C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5834A6671E6E297E0012DB8C /* Build configuration list for PBXNativeTarget "GerdEval1UITests" */ = {
 			isa = XCConfigurationList;
@@ -519,6 +529,7 @@
 				5834A6691E6E297E0012DB8C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
