@@ -16,6 +16,7 @@
 		5834A65D1E6E297E0012DB8C /* GerdEval1UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5834A65C1E6E297E0012DB8C /* GerdEval1UITests.swift */; };
 		5834A66B1E6E2D710012DB8C /* SecondVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5834A66A1E6E2D710012DB8C /* SecondVC.swift */; };
 		587E97A21E6F550200C98B03 /* KeychainWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 587E97A11E6F550200C98B03 /* KeychainWrapper.swift */; };
+		587E97A41E6F584900C98B03 /* KeychainItemAccessibility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 587E97A31E6F584900C98B03 /* KeychainItemAccessibility.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		5834A65E1E6E297E0012DB8C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5834A66A1E6E2D710012DB8C /* SecondVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondVC.swift; sourceTree = "<group>"; };
 		587E97A11E6F550200C98B03 /* KeychainWrapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeychainWrapper.swift; sourceTree = "<group>"; };
+		587E97A31E6F584900C98B03 /* KeychainItemAccessibility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeychainItemAccessibility.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +106,7 @@
 				5834A63C1E6E297E0012DB8C /* AppDelegate.swift */,
 				587E97A11E6F550200C98B03 /* KeychainWrapper.swift */,
 				5834A63E1E6E297E0012DB8C /* ViewController.swift */,
+				587E97A31E6F584900C98B03 /* KeychainItemAccessibility.swift */,
 				5834A6401E6E297E0012DB8C /* Main.storyboard */,
 				5834A6431E6E297E0012DB8C /* Assets.xcassets */,
 				5834A6451E6E297E0012DB8C /* LaunchScreen.storyboard */,
@@ -268,6 +271,7 @@
 				5834A63F1E6E297E0012DB8C /* ViewController.swift in Sources */,
 				587E97A21E6F550200C98B03 /* KeychainWrapper.swift in Sources */,
 				5834A66B1E6E2D710012DB8C /* SecondVC.swift in Sources */,
+				587E97A41E6F584900C98B03 /* KeychainItemAccessibility.swift in Sources */,
 				5834A63D1E6E297E0012DB8C /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -16,14 +16,26 @@ class ViewController: UIViewController {
    
     @IBAction func goToSecondVC(_ sender: Any) {
         
-        let UserEmail = txtUserEmail.text
-        performSegue(withIdentifier: "goToSecondVC", sender: UserEmail)
+        let userName = txtUserName.text
+        let userEmail = txtUserEmail.text
+        let userCellphoneNo = txtCellphoneNo.text
+        
+        //check if required field is empty
+        
+        KeychainWrapper.standard.set(userName!, forKey: "userName")
+        KeychainWrapper.standard.set(userEmail!, forKey: "userEmail")
+        KeychainWrapper.standard.set(userCellphoneNo!, forKey: "userCellphoneNo")
+ 
+        
+        performSegue(withIdentifier: "goToSecondVC", sender: "")
     
     }
     
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        
+        
     }
 
     override func didReceiveMemoryWarning() {

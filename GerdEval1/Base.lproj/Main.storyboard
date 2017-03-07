@@ -91,11 +91,12 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="-190" y="0.0"/>
         </scene>
         <!--SecondVC-->
         <scene sceneID="VT7-RE-zbB">
             <objects>
-                <viewController id="uFo-HA-UHc" customClass="SecondVC" customModule="GerdEval1" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="SecondVC" id="uFo-HA-UHc" customClass="SecondVC" customModule="GerdEval1" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="q4l-du-RaJ"/>
                         <viewControllerLayoutGuide type="bottom" id="LeJ-fe-Xo9"/>
@@ -118,7 +119,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="nbH-g5-d7A" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="757.60000000000002" y="35.532233883058474"/>
+            <point key="canvasLocation" x="775" y="0.0"/>
         </scene>
     </scenes>
     <resources>
