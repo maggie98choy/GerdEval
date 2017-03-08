@@ -76,6 +76,13 @@
                                             <action selector="goToSecondVC:" destination="BYZ-38-t0r" eventType="touchUpInside" id="d8Q-kS-HIg"/>
                                         </connections>
                                     </button>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="mSI-mZ-wV6">
+                                        <rect key="frame" x="35" y="199" width="204" height="61"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                    </textView>
                                 </subviews>
                                 <color key="backgroundColor" red="0.96557741116751272" green="0.96557741116751272" blue="0.96557741116751272" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </view>
@@ -86,12 +93,13 @@
                         <outlet property="txtCellphoneNo" destination="Ei3-hr-9gC" id="8o1-S3-Gzm"/>
                         <outlet property="txtUserEmail" destination="zO9-x6-flL" id="DDZ-5Y-pMU"/>
                         <outlet property="txtUserName" destination="GeP-ea-rQJ" id="ziq-oe-Qbr"/>
+                        <outlet property="txtView" destination="mSI-mZ-wV6" id="yCy-Hm-jo5"/>
                         <segue destination="uFo-HA-UHc" kind="show" identifier="goToSecondVC" id="iHk-aw-K1l"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-190" y="0.0"/>
+            <point key="canvasLocation" x="-191.19999999999999" y="-0.44977511244377816"/>
         </scene>
         <!--SecondVC-->
         <scene sceneID="VT7-RE-zbB">

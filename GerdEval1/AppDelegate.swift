@@ -17,9 +17,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
         
-        let retrievedUserName:String? = KeychainWrapper.standard.string(forKey: "userName")
-        
-        
+        /*let retrievedUserName:String? = KeychainWrapper.standard.string(forKey: "userName")
         if (retrievedUserName != nil && retrievedUserName != "")
         {
             print("retrievedUserName = \(retrievedUserName)")
@@ -30,6 +28,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
             self.window?.makeKeyAndVisible()
             
         }
+ 
+ */
+ 
  
 
         return true
